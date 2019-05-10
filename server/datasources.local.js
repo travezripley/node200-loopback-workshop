@@ -5,18 +5,13 @@ module.exports = {
     connector: "memory"
   },
   MongoDB: {
-    url: "mongodb://localhost:27017",
+    host: "",
+    port: 0,
+    url: "",
+    database: "",
+    password: "",
     name: "MongoDB",
+    user: "",
     connector: "mongodb"
-  },
-"MongoDB": {
-  "host": "",
-  "port": 0,
-  "url": "",
-  "database": "",
-  "password": "",
-  "name": "MongoDB",
-  "user": "",
-  "connector": "mongodb"
-}
+  }
 };
