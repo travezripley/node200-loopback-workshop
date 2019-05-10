@@ -7,7 +7,7 @@ module.exports = {
   MongoDB: {
     host: "",
     port: 0,
-    url: "",
+    url: process.env.MONGODB_URI,
     database: "",
     password: "",
     name: "MongoDB",
